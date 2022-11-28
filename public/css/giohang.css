@@ -1,0 +1,60 @@
+.giohang{
+    width:98%;
+    height:auto;
+    margin:auto;
+    
+    margin-top:71px;
+    min-height:500px;
+    background-color: rgb(124, 155, 196);
+    border-radius: 5px;
+}
+.rowgiohang{
+    width:98%;
+    height:50px;
+    margin:auto;
+    background-color: rgb(174, 184, 218);
+    border-radius: 3px;
+    margin-top:15px;
+}
+.rowgiohang .checksp{
+    clear: both;
+    margin-top:20px;
+    float:left;
+    margin-left:3%;
+}
+.rowgiohang .imgsp{
+  float:left;
+  margin-left:5%;
+}
+.rowgiohang .tensp{
+    float:left;
+    margin-left:10px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top:15px;
+}
+.rowgiohang .butxoa{
+    width:80px;
+    height:35px;
+    text-align: center;
+    font-weight: bold;
+    padding-top:15px;
+    float:right;
+    margin-right:20px;
+    text-decoration: none;
+    background-color: rgb(240, 110, 110);
+    color:black;
+    border-radius: 3px;
+}
+.giohang .butmua{
+    clear: both;
+    background-color: chocolate;
+    width:100px;
+    height:40px;
+    border:none;
+    border-radius: 3px;
+    font-weight: bold;
+    float:right;
+    margin-right:30px;
+    margin-top:10px;
+}

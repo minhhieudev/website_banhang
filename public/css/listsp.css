@@ -1,0 +1,84 @@
+#listsp{
+    display:flex;
+    margin:auto;
+    width:98%;
+    min-width: 1200px;
+    height:auto;
+    background-color: rgb(255, 175, 100);
+    margin-top:5px;
+    border-radius: 5px;
+}
+
+.itemsp{
+    background-color: rgb(253, 253, 253);
+    width:190px;
+    height:260px;
+    border-radius: 5px;
+    margin:5px;
+    float: left;
+    position: relative;
+    z-index: 1;
+   
+}
+ .itemsp .imgsp{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height:55%;
+}
+
+.itemsp .tensp{
+  font-weight: bold;
+  font-size: 16px;
+  width: 96%;
+  height:60px;
+  margin-left:10px;
+  text-decoration: none;
+  color:black;
+}
+.itemsp .tensp:visited{
+    color:black;
+}
+.itemsp .gia{
+  color: rgb(252, 22, 22);
+  margin:0px;
+  bottom:45px;
+  left:31%;
+  position: absolute;
+}
+ .itemsp .giagoc{
+   text-decoration: line-through;
+    left:35%;
+    margin:0px;
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+    bottom:30px;
+    position: absolute;
+}
+ .itemsp .imgxem{
+    position: absolute;
+    left:3px;
+    bottom:5px;
+   
+}
+.itemsp .txtxem{
+    position: absolute;
+    width:30px;
+    height:15px;
+    font-size: 14px;
+    left:15px;
+    bottom:8px;
+   
+}
+.itemsp .txtdamua{
+    width:30px;
+    height:15px;
+    font-size: 14px;
+   right:20px;
+    bottom:8px;
+    position: absolute;
+}
+.itemsp .imggiohang{
+    left:85%;
+    bottom:5px;
+    position: absolute;
+}

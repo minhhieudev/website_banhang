@@ -1,0 +1,37 @@
+.dathang{
+    width:98%;
+    height:auto;
+    margin:auto;
+    background-color: #909b75;
+    margin-top:60px;
+    border-radius: 5px;
+}
+.dathang table{
+    margin:auto
+}
+.dathang label{
+    display:block;
+    font-size: 120%;
+}
+.dathang .in{
+    border:none;
+    padding-left:10px;
+    width:500px;
+    height:30px;
+    border-radius: 3px;
+}
+.dathang .but{
+    width:90px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dathang .buthuy{
+    float:right;
+    background-color: #f36e4c;
+}
+.dathang .butdathang{
+    background-color: #1a84e7;
+
+}

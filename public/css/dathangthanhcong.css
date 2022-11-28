@@ -1,0 +1,72 @@
+.donhang{
+    width:98%;
+    height:400px;
+    margin:auto;
+    background-color: #fdf0a7;
+    margin-top:70px;
+    border-radius: 5px;
+
+}
+.donhang .t{
+    margin-left:37%;
+    color:red;
+}
+.ttdathang{
+    float:left;
+    width:40%;
+    height:auto;
+    background-color: rgb(247, 186, 95);
+    padding:15px;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-left:1%;
+}
+.listdonhang{
+    margin-left:1%;
+    float:left;
+    width:55%;
+    height:auto;
+   
+
+}
+.listdonhang .rowdonhang{
+    clear: both;
+    width:100%;
+    height:50px;
+    margin-top:5px;
+     background-color: rgb(101, 167, 167);
+     border-radius: 5px;
+}
+.rowdonhang img{
+    float:left;
+    margin-top:2px;
+    margin-left:10px;
+    border-radius: 5px;
+    
+}
+.rowdonhang .tenSp{
+    float:left;
+    margin-left:10px;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top:15px;
+    
+}
+.rowdonhang .giaSp{
+    float:right;
+    margin-left:10px;
+    color:red;
+    font-weight: bold;
+    margin-right:10px;
+}
+.rowdonhang .textThanhToan{
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    color: red;
+    margin-top:10px;
+}
+.tt{
+  background-color: rgb(229, 233, 236);
+  padding-top:5px
+}

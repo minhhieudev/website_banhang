@@ -1,0 +1,39 @@
+@import "lienhe.css";
+@import "header.css";
+@import "dndk.css";
+@import "slider.css";
+@import "thongbao.css";
+@import "nganhhang.css";
+@import "locsp.css";
+@import "listsp.css";
+@import "footer.css";
+@import "chitietsp.css";
+@import "dathang.css";
+@import "dathangthanhcong.css";
+@import "repontive.css";
+@import "giohang.css";
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(../../../public/upload/anhnen.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*....*/
+#wraper{
+    width:100%;
+    max-width:1200px;
+    height:auto;
+    min-height: 1000px;
+    margin:auto;
+    background-color: rgb(202, 202, 202);
+   
+}
+/* bandner*/
+#bandner{
+    width:98%;
+    height:200px;
+    margin:auto;
+    margin-top:70px;
+}

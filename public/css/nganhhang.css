@@ -1,0 +1,38 @@
+#nganhhang{
+    display:flex;
+    width:98%;
+    height:50px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    margin-top:5px;
+    border-radius: 5px;
+    justify-content: center;  
+}
+#nganhhang .item{
+    background-color: #f5f394;
+    list-style: none;
+    float:left;
+    width:150px;
+    height:90%;
+    border:solid #aaaaaa 1px;
+    border-radius: 3px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:15px;
+    margin-top:2px;
+    transition:0.3s;
+}
+#nganhhang .item:hover{
+    background-color: #53531f;
+}
+#nganhhang .item:hover a{
+    color: rgb(255, 255, 255);
+}
+#nganhhang .item a{
+    text-decoration: none;
+    color:black
+}

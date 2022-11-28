@@ -1,0 +1,138 @@
+@media only screen and ( max-width:1200px ){
+    #wraper{
+      background-color: #60b0fa;
+    }
+    #header{
+    width:100%;
+    left:0%;
+    }
+}
+@media only screen and ( max-width:1023px ){
+    #wraper{
+        background-color: #b562b8;
+    }
+    
+    #nganhhang .item{
+        margin-left:5px;
+    }
+}
+@media only screen and ( max-width:767px ){
+    #wraper{
+        background-color: #eb747a;
+    }
+    #bandner #slider{
+        width:100%;
+    }
+    #bandner{
+        height:auto;
+    }
+    #bandner #thongbao{
+        background-color: transparent;
+      float: none;
+      display: block;
+      width:100%;
+      margin-top:20px;
+
+    }
+    #bandner #thongbao .title{
+        font-weight: bold;
+        font-size: 16px;
+        color: #1a84e7;
+        float: right
+    }
+    #dn-dk li{
+        margin-top:5px;
+        float:right;
+        margin-right:5px;
+        font-weight: none;
+        
+    }
+    #dn-dk li:nth-child(2){
+        border-right:none;
+    }
+    #dn-dk li a{
+        font-size: 13px;
+    }
+    #header #form-search #txtinput{
+        width:80%;
+    }
+    #header #form-search #butsubmit{
+        width:15%;
+    }
+    #dn-dk .f{
+        left:20%;
+    }
+    #loc-sp .intext{
+       margin-right:10px;
+    }
+    #loc-sp .intext .in{
+        font-size: 12px;
+        padding-left:2px;
+        
+    }
+
+    #nganhhang .item a{
+        font-size: 13px;
+    }
+
+    #listsp{
+        min-width:500px;
+    }
+    #listsp .itemsp{
+        width:10%;
+        min-width: 100px;
+        height:165px;
+        margin:5px;
+        
+    }
+    #listsp .itemsp .imgsp{
+       height:40%;
+    }
+    #listsp .itemsp .tensp{
+        font-size: 10px;
+        margin-left:1px;
+        height:40px;
+    }
+    #listsp .itemsp .gia{
+        font-size: 12px;
+    }
+    #listsp .itemsp .giagoc{
+        font-size: 11px;
+    }
+    #listsp .itemsp .txtxem{
+        font-size: 10px;
+        margin:0px;
+        margin-top:2px;
+    }
+    #listsp .itemsp .imgxem{
+       width:15px;
+       height:15px;
+    }
+    #listsp .itemsp .txtdamua{
+        font-size: 11px;
+        margin-top:2px;
+    }
+    #listsp .itemsp .imggiohang{
+        width:15px;
+        height:15px;
+        margin-left:0px;
+    }
+    .itemsp .txtxem{
+      
+        bottom:3px;
+        left:10px;
+    }
+    .itemsp .txtdamua{
+        bottom:3px;
+        right:10px
+    }
+    .itemsp .gia{
+     
+        left:28%;
+        
+      }
+       .itemsp .giagoc{
+         left:30%;
+       }
+}
+

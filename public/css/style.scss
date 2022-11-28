@@ -1,0 +1,18 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#menu{
+    $witem:100px;
+    $hmenu:30px; 
+
+    width:700px;
+    height:$hmenu;
+    background-color: aquamarine;
+    li{
+        list-style: none;
+        width:$witem;
+        height:100%;
+        float:left;
+    }
+}

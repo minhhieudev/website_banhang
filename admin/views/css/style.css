@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <title>Trang Chủ Admin</title>
-  <link href="./../public/cssAdmin/styleMain.css" rel="stylesheet">
-  <link href="" rel="stylesheet">
-  <script type=”text/javascript” src=”http://code.jquery.com/jquery-2.0.3.min.js”></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" language=”JavaScript” src="public/js/jsadmin.js"></script>
-</head>
-<style>
-  /* =========== Google Fonts ============ */
+/* =========== Google Fonts ============ */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 /* =============== Globals ============== */
@@ -95,11 +81,11 @@ body {
 
 .navigation ul li a .icon {
   position: relative;
-    display: block;
-    min-width: 56px;
-    height: 53px;
-    line-height: 75px;
-    text-align: center;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 75px;
+  text-align: center;
 }
 .navigation ul li a .icon ion-icon {
   font-size: 1.75rem;
@@ -145,7 +131,6 @@ body {
 
 /* ===================== Main ===================== */
 .main {
-  
   position: absolute;
   width: calc(100% - 300px);
   left: 300px;
@@ -231,21 +216,19 @@ body {
   width: 100%;
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
 }
 
 .cardBox .card {
   position: relative;
-  box-shadow: 10px 10px 5px grey;
-  border: 2px solid;
   background: var(--white);
   padding: 30px;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-  /* box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08); */
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
 
 .cardBox .card .numbers {
@@ -292,8 +275,7 @@ body {
   min-height: 500px;
   background: var(--white);
   padding: 20px;
-  box-shadow: 10px 10px 5px grey;
-  border: 2px solid;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
 }
 
@@ -385,8 +367,7 @@ body {
   min-height: 500px;
   padding: 20px;
   background: var(--white);
-  box-shadow: 10px 10px 5px grey;
-  border: 2px solid;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
 }
 .recentCustomers .imgBx {
@@ -486,156 +467,3 @@ body {
     left: initial;
   }
 }
-
-
-
-
-</style>
-
-<body>
-        <div class="navigation">
-            <ul>
-                
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="logo-apple"></ion-icon>
-                        </span>
-                        <span class="title">Brand Name</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.php?admin=1&c=dashboard">
-                        <span class="icon">
-                            <ion-icon name="home-outline"></ion-icon>
-                        </span>
-                        <span class="title">Dashboard</span>
-                    </a>
-                </li>
-                <li><a href="index.php?admin=1&c=dondathang"><img  class="icon" src="./../public/images/order.png" height="30px" width="20px" ><p class="title">Đơn đặt hàng</p></a></li>
-                <li><a href="index.php?admin=1&c=sanpham"><img class="icon" src="./../public/images/sanpham.png" height="30px" width="30px" ><p class="title">Sản phẩm</p></a></li>
-                <li><a href="index.php?admin=1&c=user"><img class="icon " src="./../public/images/user.png" height="30px" width="30px" ><p class="title">User</p></a></li>
-                <li><a href="index.php?admin=1&c=thongbao"><img class="icon " src="./../public/images/notification.png" height="30px" width="30px" ><p class="title">Thông báo</p></a></li>
-                <li><a href="index.php?admin=1&c=slider"><img class="icon " src="./../public/images/slider.png" height="30px" width="30px" ><p class="title">Ảnh Slider</p></a></li>
-                <li><a href="index.php?admin=1&c=nganhhang"><img class="icon " src="./../public/images/list.png" height="30px" width="30px" ><p class="title">Danh sách ngành hàng</p></a></li>
-  
-                
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="people-outline"></ion-icon>
-                        </span>
-                        <span class="title">Customers</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                        </span>
-                        <span class="title">Messages</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="help-outline"></ion-icon>
-                        </span>
-                        <span class="title">Help</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="settings-outline"></ion-icon>
-                        </span>
-                        <span class="title">Settings</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
-                        </span>
-                        <span class="title">Password</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="log-out-outline"></ion-icon>
-                        </span>
-                        <span class="title">Sign Out</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- ========================= Main ==================== -->
-        <div class="main">
-            <div class="topbar">
-                <div class="toggle">
-                    <ion-icon name="menu-outline"></ion-icon>
-                </div>
-
-                <div class="search">
-                    <label>
-                        <input type="text" placeholder="Search here">
-                        <ion-icon name="search-outline"></ion-icon>
-                    </label>
-                </div>
-
-                <div class="user">
-                    <img src="assets/imgs/customer01.jpg" alt="">
-                </div>
-            </div>
-
-            <!-- ======================= Cards ================== -->
-            <div class="content">
-              <?php 
-                   
-                  switch($nameView){
-                    case 'dondathang':
-                      require_once "./views/V_don_dat_hang.php";
-                    break;
-                    case 'sanpham':
-                      require_once "./views/V_san_pham.php";
-                    break;
-                    case 'user':
-                      require_once "./views/V_user.php";
-                    break;
-                    case 'thongbao':
-                      require_once "./views/V_thong_bao.php";
-                    break;
-                    case 'slider':
-                      require_once "./views/V_slider.php";
-                    break;
-                    case 'nganhhang':
-                      require_once "./views/V_nganh_hang.php";
-                    break;
-                    default:
-                      require_once "./views/V_dashboards.php";
-                    break;
-                  }
-              ?>
-            </div>
-          </div>
-        
-    </div>
-
-    <!-- =========== Scripts =========  -->
-    <script src="assets/js/main.js"></script>
-
-    <!-- ====== ionicons ======= -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="../assets/js/main.js"></script>
-
-</body>
-</html>

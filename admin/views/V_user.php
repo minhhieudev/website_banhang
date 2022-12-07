@@ -1,28 +1,76 @@
 
 <style>
-  .main{
+  .m{
     text-align:center;
+  }
+  .m h1{
+    color: #FF3300;
+    text-shadow: 1px 1px 2px #000000;
   }
   .contents{
     display: flex; 
     justify-content: center;
     align-items: center;  
+    font-size:20px;
+    font-weight: bold;
+    margin-top:20px;
   }
   table{
-    width: 60%;
+    width: 70%;
+    size:25px;
+    box-shadow: 20px 20px 10px grey;
+    border: 2px solid;
   }
+  table td{
+        height:26px;
+  }
+  table tr{
+    height:35px;
+  }
+  .row1{
+    height:40px;
+  }
+  table tr:nth-child(odd){
+    background-color:#eee;
+    }
+    table tr:nth-child(even){
+        background-color:white;
+    }
+    table tr:nth-child(1){
+        background-color:#33FF99;
+    }
+   .bt3{
+  background:#FF8247;
+  text-decoration: none;
+  padding:3px;
+  color:white;
+  border-radius:25px;
+ }
+ .bt1{
+  border-radius:25px;
+  padding: 2px;
+  color:white;
+  background: #00BFFF;
+ }
+ .bt2{
+  background:#FF3300;
+  border-radius:25px;
+  padding: 2px;
+  color:white;
+  left:0px;
+ }
 </style>
-<div class="main">
+<div class="m">
   <h1>Quản lí bảng user</h1>
   <div class="contents">
     <table class="table" border="1px" cellspacing="0px">
     <tr class="row1">
-        <td>idUser</td>
-        <td>name</td>
-        <td>tk</td>
-        <td>mk</td>
+        <td>ID User</td>
+        <td>Name</td>
+        <td>Tài khoản</td>
+        <td>Mật khẩu</td>
         <td>Loại user</td>
-        <td><a href="index.php?admin=&c=user&themuser=">Thêm User</a></td>
+        <td><a class="bt3" href="index.php?admin=&c=user&themuser="><ion-icon name="add-circle-outline"></ion-icon>Thêm User</a></td>
     </tr>
     
     <?php
@@ -43,8 +91,8 @@
             <td align="center">
                 <input type="hidden" name="admin" value="admin">
                 <input type="hidden" name="c" value="user">
-                <input type="hidden" name="a" value="themuser">
-                <input type="submit" value="Thêm">
+                <input  type="hidden" name="a" value="themuser">
+                <input  type="submit" value="Thêm">
             </td>
             </form>
         </tr>
@@ -85,8 +133,8 @@
         <td>{mk}</td>
         <td>{gr}</td>
         <td align="center">
-            <a class="but edit" href="index.php?admin=&c=user&idUserSua={idUser}">Sữa</a>
-            <a onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=user&a=xoauser&idUser={idUser}">Xóa</a>
+            <a class="but edit bt1" href="index.php?admin=&c=user&idUserSua={idUser}"><ion-icon name="create-outline"></ion-icon>Sửa</a>
+            <a class="bt2" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=user&a=xoauser&idUser={idUser}"><ion-icon name="trash-outline"></ion-icon>Xóa</a>
         </td>
     </tr>
 

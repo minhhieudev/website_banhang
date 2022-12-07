@@ -32,12 +32,13 @@
 </head>
 <body>
 <?php require_once "customer/views/V_header.php"; ?>
+
 <div class="dathang">
    <form method="post" action="index.php">
         <input name="c" type="hidden" value="dathang" >
-        <table border="1px" cellspacing="0px" cols="2" rows="6">
+        <table  cellspacing="0px" cols="2" rows="6">
          <tr>
-             <td colspan="2"><h2>Thêm địa chỉ nhận hàng</h2></td>
+             <td colspan="2"><h2 class="title">Thêm địa chỉ nhận hàng</h2></td>
              <td ></td>
          </tr>
          <tr>
@@ -89,6 +90,9 @@
    </table>
   </form>
 </div>
+
+
 <?php require_once "customer/views/V_footer.php"; ?>
+
 </body>
 </html>

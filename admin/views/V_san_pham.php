@@ -9,6 +9,9 @@
     display: flex; 
     justify-content: center;
     align-items: center;  
+    font-weight: bold;
+    margin-top:12px;
+
   }
   .row1{
     background-color:#008800;
@@ -24,24 +27,25 @@
     cursor:pointer;
  }
  h1{
-  color:#FF00FF;
+  color: #FF00FF;
+    text-shadow: 1px 1px 2px #000000;
  }
  .bt3{
   background:#FF8247;
   text-decoration: none;
   padding:6px;
   color:white;
-  border-radius:25%;
+  border-radius:25px;
  }
  .bt1{
-  border-radius:25%;
+    border-radius:25px;
   padding: 5px;
   color:white;
   background: #00BFFF;
  }
  .bt2{
   background:#FF3300;
-  border-radius:25%;
+    border-radius:25px;
   padding: 5px;
   color:white;
   left:0px;
@@ -60,7 +64,7 @@
           <td>Ảnh sản phẩm</td>
           <td>Nhóm hàng</td>
         
-          <td><a class="bt3" href="index.php?admin=&c=sanpham&themsanpham=">Thêm</a></td>
+          <td><a class="bt3" href="index.php?admin=&c=sanpham&themsanpham="><ion-icon name="add-circle-outline"></ion-icon>Thêm</a></td>
       </tr>
       <?php 
       //get list option nganh hang
@@ -135,8 +139,9 @@
           <td class="giasale">{giaSale}</td>
           <td align="center"><img src="./../public/upload/{urlHinh}" width="40px" height="40px"></td>
           <td align="center">{loaiHang}</td>
-          <td><a class="bt1" href="index.php?admin=&c=sanpham&idSp={idSp}">Sữa</a>
-          <a class="bt2" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=sanpham&a=xoasanpham&idSp={idSp}">Xóa</a></td>
+          <td><a class="bt1" href="index.php?admin=&c=sanpham&idSp={idSp}"><ion-icon name="create-outline"></ion-icon>Sửa</a>
+          
+          <a class="bt2" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=sanpham&a=xoasanpham&idSp={idSp}"><ion-icon name="trash-outline"></ion-icon>Xóa</a></td>
           </tr>
       <?php }
         $s=ob_get_clean();

@@ -1,17 +1,61 @@
 <style>
-  .main{
+  .m {
     text-align:center;
+  }
+  .m h1{
+    color: #0066FF;
+    text-shadow: 1px 1px 2px #000000;
   }
   .contents{
     display: flex; 
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    font-weight: bold;  
+    margin-top:20px;
+
   }
   table{
-    width: 60%;
+    width: 80%;
+    box-shadow: 20px 20px 10px grey;
+    border: 2px solid;
   }
+  table tr{
+    height:35px;
+  }
+  .row1{
+    height:40px;
+  }
+  table tr:nth-child(odd){
+    background-color:#eee;
+    }
+    table tr:nth-child(even){
+        background-color:white;
+    }
+    table tr:nth-child(1){
+        background-color:#33FF99;
+    }
+  .bt2{
+  background:#FF3300;
+  border-radius:25px;
+  padding: 2px;
+  color:white;
+  left:0px;
+ }
+ .bt1{
+  border-radius:25px;
+  padding: 2px;
+  color:white;
+  background: #00BFFF;
+ }
+ .bt3{
+  background:#FF8247;
+  text-decoration: none;
+  padding:3px;
+  color:white;
+  border-radius:25px;
+ }
 </style>
-<div class="main">
+<div class="m">
  <h1>Quản lí Thông báo</h1>
  <div class="contents">
   <table class="table" border="1px" cellpadding="5px" cellspacing="0px">
@@ -21,7 +65,7 @@
       <td>Ngày</td>
       <td>url Hình</td>
       <td>Nội dung</td>
-      <td><a href="index.php?admin=&c=thongbao&themthongbao">Thêm</a></td>
+      <td><a class="bt3" href="index.php?admin=&c=thongbao&themthongbao"><ion-icon name="add-circle-outline"></ion-icon>Thêm</a></td>
   </tr>
   <?php  
   
@@ -73,8 +117,8 @@
         <td>{urlHinhTb}</td>
         <td>{noiDung}</td>
         
-        <td><a href="index.php?admin=&c=thongbao&suathongbao={idTb}">Sữa</a>--
-        <a onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=thongbao&a=xoathongbao&idTb={idTb}">Xóa</a></td>
+        <td><a class="bt1" href="index.php?admin=&c=thongbao&suathongbao={idTb}"><ion-icon name="create-outline"></ion-icon>Sửa</a>
+        <a class="bt2" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=thongbao&a=xoathongbao&idTb={idTb}"><ion-icon name="trash-outline"></ion-icon>Xóa</a></td>
         </tr>
     <?php }
     $s=ob_get_clean();

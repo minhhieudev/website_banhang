@@ -16,5 +16,5 @@ foreach($listgiohang as $rowsp){
         <p class="tensp"><?php echo $rowsp["tenSp"] ?></p>
         <p style="color:red;font-size:19px;margin-top:15px;margin-left:50px;float:left"><?php echo $rowsp["giaSale"] ?> .VND</p>
         <a class="butxoa" onclick="XoaItemGioHang(<?php echo $idGioHang ?>)">Xóa</a>
-    </div>
+  </div>
 <?php } ?>

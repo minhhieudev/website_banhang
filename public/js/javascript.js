@@ -60,14 +60,13 @@ function anFormdndk(but, dndk) {
     if (dndk == 2) {
       
       document.getElementById("form-dn").style.setProperty('display', 'block'); 
-      document.getElementById("wraper").style.opacity = "0.5";
-      document.getElementById("form-dn").style.removeProperty('opacity');
+      
           
 }
     else { document.getElementById("form-dk").style.setProperty('display', 'block'); }
   } else {
-    document.getElementById("form-dn").style.setProperty("opacity", "1");
-    document.getElementById("wraper").style.opacity = "1";
+    
+    
     document.getElementById("form-dn").style.setProperty('display', 'none');
     document.getElementById("form-dk").style.setProperty('display', 'none');
   }
@@ -75,12 +74,25 @@ function anFormdndk(but, dndk) {
 }
 
 ///
-function themvaogiohang(iidSp,iidUser){
-  if(iidUser=='-1') alert("Vui lòng đăng nhập..");
+function checkdangnhap(iidUser, gr) {
+  if (iidUser == "-1") alert("Vui lòng đăng nhập..");
+  else if (gr == 1) document.getElementById("admin_bt").href = "admin";
+  else {
+    alert("Bạn không có quyền truy cập !");
+  }
+}
+
+// check dang nhap admin
+function themvaogiohang(iidSp, iidUser) {
+  if (iidUser == "-1") alert("Vui lòng đăng nhập..");
   else
-   $.get("index.php",{c:'ajax',a:'themvaogiohang',idSp:iidSp,idUser:iidUser},function(data){
-       alert("Đã thêm vào giỏ hàng");
-   });
+    $.get(
+      "index.php",
+      { c: "ajax", a: "themvaogiohang", idSp: iidSp, idUser: iidUser },
+      function (data) {
+        alert("Đã thêm vào giỏ hàng");
+      }
+    );
 }
 ////////////////////////
 //ajax

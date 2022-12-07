@@ -18,7 +18,7 @@
            </div>
                <?php } ?>
                <div class="rowdonhang tt">
-                    <p class="textThanhToan">Tổng tiền thanh toán : <?php echo $tienThanhToan ?> </p>
+                    <p class="textThanhToan">Tổng tiền thanh toán : <?php echo $tienThanhToan ?>đ </p>
                </div>
       </div>
 </div>

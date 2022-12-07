@@ -43,8 +43,13 @@
         <script type="text/javascript" language=”JavaScript” src="public/js/javascript.js"></script>
 </head>
 <body>
+  
   <!--wrapper-->
   <div id="wraper">
+    <!--blocks button admin-->
+        <?php require "V_bt_admin.php"?>
+      <!--///lien he-->
+
       <!--blocks lien he-->
         <?php require "V_lien_he.php" ?>
       <!--///lien he-->

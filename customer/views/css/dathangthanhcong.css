@@ -11,6 +11,10 @@
     margin-left:37%;
     color:red;
 }
+.ttdathang .info{
+    color:black;
+    font-weight: bold;
+}
 .ttdathang{
     float:left;
     width:40%;

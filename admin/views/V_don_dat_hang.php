@@ -1,9 +1,10 @@
 <style>
-.s1{
+.s .row1{
   background-color: coral;
   color: black;
-  font-size:20px;
+  font-size:17px;
   text-align:center;
+  font-weight: bold;
 }
 table{
   width: 90%;
@@ -37,12 +38,20 @@ table tr:nth-child(1){
   display: flex; 
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  margin-top:12px;
+
+
   
 }
 h1{
-  color:red;
+  color: #00FF00;
+  text-shadow: 1px 1px 2px #000000;
+
 }
+
 .bt_xoa{
+  border-radius:27px;
   color: white;
   background-color:red;
   text-decoration: none;
@@ -53,17 +62,17 @@ h1{
   <div class="s">
     <table class="table" border="2px" cellpadding="2px" cellspacing="0px">
     <tr class="row1">
-        <td class="s1">Tên sản phẩm (Giá)</td>
-        <td class="s1">Thành tiền</td>
-        <td class="s1">Tên người mua</td>
-        <td class="s1">id User</td>
-        <td class="s1">Số điện thoại</td>
-        <td class="s1">Địa chỉ</td>
-        <td class="s1">Tỉnh / Thành phố</td>
-        <td class="s1">Quận / Huyện</td>
-        <td class="s1">Xã / Phường</td>
-        <td class="s1">Chú thích</td>
-        <td class="s1"></td>
+        <td >Tên sản phẩm (Giá)</td>
+        <td >Thành tiền</td>
+        <td >Tên người mua</td>
+        <td >id User</td>
+        <td >Số điện thoại</td>
+        <td >Địa chỉ</td>
+        <td >Tỉnh / Thành phố</td>
+        <td >Quận / Huyện</td>
+        <td >Xã / Phường</td>
+        <td >Chú thích</td>
+        <td ></td>
     </tr>
     <?php  
         foreach($listDonHang as $row){
@@ -90,7 +99,7 @@ h1{
         <td><?php echo $row["huyen"]  ?></td>
         <td><?php echo $row["xa"]  ?></td>
         <td><?php echo $row["chuThich"]  ?></td>
-        <td class="s2"><a class="bt_xoa" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=dondathang&a=xoadondathang&idDH=<?php echo $row["idDonHang"]  ?>">Xóa</a></td>
+        <td class="s2"><ion-icon name="trash-outline"></ion-icon><a class="bt_xoa" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=dondathang&a=xoadondathang&idDH=<?php echo $row["idDonHang"]  ?>">Xóa</a></td>
         </tr>
     <?php 
     }

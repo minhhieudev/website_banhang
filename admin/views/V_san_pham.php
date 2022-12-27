@@ -1,7 +1,7 @@
 
 <style>
   .tablesp{
-    width: 95%;
+    width: 98%;
     box-shadow: 20px 20px 10px grey;
     border: 2px solid;
   }
@@ -18,8 +18,14 @@
     height:40px;
     font-size:18px;
   }
+  .bt-them{
+    background-color:#FF8C00;
+    border-radius:25px;
+    padding:3px;
+  }
   .v{
     text-align:center;
+    font-size: 14px;
   }
   
   tr:hover{
@@ -33,20 +39,20 @@
  .bt3{
   background:#FF8247;
   text-decoration: none;
-  padding:6px;
+  padding:5px;
   color:white;
   border-radius:25px;
  }
  .bt1{
     border-radius:25px;
-  padding: 5px;
+  padding: 4px;
   color:white;
   background: #00BFFF;
  }
  .bt2{
   background:#FF3300;
     border-radius:25px;
-  padding: 5px;
+  padding: 4px;
   color:white;
   left:0px;
  }
@@ -91,7 +97,7 @@
         <input type="hidden" name="admin" value="admin">
         <input type="hidden" name="c" value="sanpham">
         <input type="hidden" name="a" value="themsanpham">
-        <td><input type="submit" value="Thêm"> </td>
+        <td><input type="submit" class="bt-them" value="Thêm"> </td>
         </form>
         </tr>
         ';
@@ -139,9 +145,10 @@
           <td class="giasale">{giaSale}</td>
           <td align="center"><img src="./../public/upload/{urlHinh}" width="40px" height="40px"></td>
           <td align="center">{loaiHang}</td>
-          <td><a class="bt1" href="index.php?admin=&c=sanpham&idSp={idSp}"><ion-icon name="create-outline"></ion-icon>Sửa</a>
-          
-          <a class="bt2" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=sanpham&a=xoasanpham&idSp={idSp}"><ion-icon name="trash-outline"></ion-icon>Xóa</a></td>
+          <td>
+            <a class="bt1" href="index.php?admin=&c=sanpham&idSp={idSp}"><ion-icon name="create-outline"></ion-icon>Sửa</a>
+            <a class="bt2" onclick="return confirm('Bạn có chắc muốn xóa');" href="index.php?admin=&c=sanpham&a=xoasanpham&idSp={idSp}"><ion-icon name="trash-outline"></ion-icon>Xóa</a>
+          </td>
           </tr>
       <?php }
         $s=ob_get_clean();

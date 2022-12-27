@@ -43,9 +43,10 @@
         <script type="text/javascript" language=”JavaScript” src="public/js/javascript.js"></script>
 </head>
 <body>
-  
+   
   <!--wrapper-->
   <div id="wraper">
+    
     <!--blocks button admin-->
         <?php require "V_bt_admin.php"?>
       <!--///lien he-->
@@ -56,13 +57,18 @@
 
     <!--block header-->
        <?php  require "V_header.php" ?>
+       
     <!--////block header-->
-
+   
+    <?php require "V_img_Tet.php" ?>
     <!--block main-->
         <div id="bandner">
+          
+          <?php  require "V_title.php" ?>
           <div id="slider">
              <!--blocks slide-->
              <?php require "V_slider.php" ?>
+             
           </div>
 
           <div id="thongbao">

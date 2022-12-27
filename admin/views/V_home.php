@@ -501,7 +501,7 @@ body {
                         <span class="icon">
                             <ion-icon name="logo-apple"></ion-icon>
                         </span>
-                        <span class="title">Brand Name</span>
+                        <span class="title">WELCOME ADMIN</span>
                     </a>
                 </li>
                 <li>
@@ -592,7 +592,7 @@ body {
                 </div>
 
                 <div class="user">
-                    <img src="assets/imgs/customer01.jpg" alt="">
+                    <img src="assets/imgs/1.jpg" alt="">
                 </div>
             </div>
 

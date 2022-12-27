@@ -92,17 +92,17 @@
             <div class="details">
                 <div class="recentOrders">
                     <div class="cardHeader">
-                        <h2>Recent Orders</h2>
+                        <h2>Đơn đặt hàng gần đây</h2>
                         <a href="#" class="btn">View All</a>
                     </div>
 
                     <table>
                         <thead>
                             <tr>
-                                <td>Name</td>
-                                <td>Price</td>
-                                <td>Payment</td>
-                                <td>Status</td>
+                                <td>Sản phẩm</td>
+                                <td>Giá</td>
+                                <td>Thanh toán</td>
+                                <td>Trạng thái</td>
                             </tr>
                         </thead>
 
@@ -169,79 +169,79 @@
                 <!-- ================= New Customers ================ -->
                 <div class="recentCustomers">
                     <div class="cardHeader">
-                        <h2>Recent Customers</h2>
+                        <h2>Khách hàng gần đây</h2>
                     </div>
 
                     <table>
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer01.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/2.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>David <br> <span>Italy</span></h4>
+                                <h4>Richter<br> <span>Italy</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer02.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/3.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>Amit <br> <span>India</span></h4>
+                                <h4>Veera <br> <span>India</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer02.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/11.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>David <br> <span>Italy</span></h4>
+                                <h4>Natalya<br> <span>Italy</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer01.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/5.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>Amit <br> <span>India</span></h4>
+                                <h4>Valhein <br> <span>India</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer02.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/6.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>David <br> <span>Italy</span></h4>
+                                <h4>Enzo <br> <span>Italy</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer01.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/12.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>Amit <br> <span>India</span></h4>
+                                <h4>Hayate <br> <span>India</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer01.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/8.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>David <br> <span>Italy</span></h4>
+                                <h4>Murad <br> <span>Italy</span></h4>
                             </td>
                         </tr>
 
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer02.jpg" alt=""></div>
+                                <div class="imgBx"><img src="assets/imgs/9.jpg" alt=""></div>
                             </td>
                             <td>
-                                <h4>Amit <br> <span>India</span></h4>
+                                <h4>Florentino <br> <span>India</span></h4>
                             </td>
                         </tr>
                     </table>

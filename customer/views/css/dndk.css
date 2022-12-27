@@ -3,7 +3,7 @@
     float:left;
     width:200px;
     height:100%;
-    margin-left:350px;
+    margin-left:200px;
     margin-top: 20px;
 }
 .tentk p{
@@ -31,7 +31,7 @@
 #dn-dk .formlogout .butlogout{
     border-radius: 5px;
     border:none;
-    margin-left:15px;
+    margin-left:10px;
     margin-top:5px;
     
 }

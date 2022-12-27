@@ -38,7 +38,7 @@
         <input name="c" type="hidden" value="dathang" >
         <table  cellspacing="0px" cols="2" rows="6">
          <tr>
-             <td colspan="2"><h2 class="title">Thêm địa chỉ nhận hàng</h2></td>
+             <td  colspan="2"><h2 class="title">Thêm địa chỉ nhận hàng</h2></td>
              <td ></td>
          </tr>
          <tr>

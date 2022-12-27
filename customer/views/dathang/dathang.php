@@ -1,3 +1,21 @@
+
+<style>
+     .bt_quaylai{
+          font-size: large;
+          background-color: red;
+          color:#a3ff00;
+          margin-top: 100px;
+          text-decoration: none;
+          padding: 5px;
+          text-align: center;
+          border-radius: 12px;
+          font-weight: 900;
+          margin-left: 554px;
+     }
+     .donhang{
+          margin-top: 78px;
+     }
+</style>
 <div class="donhang">
      <h1 class="t">Đặt hàng thành công</h1>
 
@@ -21,4 +39,8 @@
                     <p class="textThanhToan">Tổng tiền thanh toán : <?php echo $tienThanhToan ?>đ </p>
                </div>
       </div>
+     
+          
+      
 </div>
+<a class="bt_quaylai" href="index.php">Quay lại</a>

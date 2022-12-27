@@ -18,7 +18,7 @@
           <input class="txtrow" maxlength="50" name="txtmk" id="txtmk" type="password" placeholder="Mật khẩu">
           
           <br>
-          <input  type="submit" value="Đăng nhập" class="butsubmit" name="butdn" id="butdn">
+          <input  type="submit"  value="Đăng nhập" class="butsubmit" name="butdn" id="butdn">
           <a href="#" class="butcancel" onclick="anFormdndk(0);">Cancel</a>
       </form>
 

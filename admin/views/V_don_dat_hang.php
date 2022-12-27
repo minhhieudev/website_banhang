@@ -2,7 +2,7 @@
 .s .row1{
   background-color: coral;
   color: black;
-  font-size:17px;
+  font-size:14px;
   text-align:center;
   font-weight: bold;
 }
@@ -10,7 +10,7 @@ table{
   width: 90%;
   box-shadow: 20px 20px 10px grey;
   border: 2px solid;
-  
+  font-size:17px;
     
 }
 table tr:hover{

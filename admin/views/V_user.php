@@ -16,7 +16,7 @@
     margin-top:20px;
   }
   table{
-    width: 70%;
+    width: 90%;
     size:25px;
     box-shadow: 20px 20px 10px grey;
     border: 2px solid;
